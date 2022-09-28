@@ -1,9 +1,9 @@
-import MessagePage from './pages/messages/messagesPage';
 import { Component } from 'react';
+import MainComponent from './layouts/mainComponent';
 class App extends Component{
   render(){
     return(
-      <MessagePage/>
+      <MainComponent/>
     );
   }
 }
